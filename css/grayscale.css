@@ -291,12 +291,12 @@ img::-moz-selection {
   background: transparent;
 }
 
-@media (min-width: 365px) {
+@media (max-width: 365px) {
   .card {
-    margin-left: 7% !important;
+    margin-left: 10% !important;
     }  
 }
-@media (min-width: 325px) {
+@media (max-width: 325px) {
   .card {
     margin-left: 10% !important;
     }  
