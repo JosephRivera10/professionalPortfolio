@@ -298,6 +298,6 @@ img::-moz-selection {
 }
 @media (min-width: 325px) {
   .card {
-    margin-left: 3% !important;
+    margin-left: 10% !important;
     }  
 }
