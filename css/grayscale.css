@@ -291,6 +291,7 @@ img::-moz-selection {
   background: transparent;
 }
 
+
 @media (min-width: 365px) {
   .card {
     margin-left: 7% !important;
