@@ -296,3 +296,8 @@ img::-moz-selection {
     margin-left: 7% !important;
     }  
 }
+@media (min-width: 325px) {
+  .card {
+    margin-left: 3% !important;
+    }  
+}
