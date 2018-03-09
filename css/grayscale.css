@@ -51,7 +51,7 @@ a:focus, a:hover {
   color: #1d9b6c;
 }
 .card {
-  margin: 5px;
+  margin: 40px;
   opacity: .5;
 }
 .card:hover{
