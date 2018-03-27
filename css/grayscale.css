@@ -292,13 +292,18 @@ img::-moz-selection {
   background: transparent;
 }
 
+@media (max-width: 375px) {
+  .card {
+    margin-left: 11% !important;
+    }  
+}
 @media (max-width: 365px) {
   .card {
-    margin-left: 10% !important;
+    margin-left: 11% !important;
     }  
 }
 @media (max-width: 325px) {
   .card {
-    margin-left: 10% !important;
+    margin-left: 11% !important;
     }  
 }
