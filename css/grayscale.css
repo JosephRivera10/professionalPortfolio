@@ -53,7 +53,7 @@ a:focus, a:hover {
 .card {
   margin: 40px;
   opacity: .5;
-  margin-left: 20px;
+  margin-left: 78px !important;
 }
 .card:hover{
   opacity: 1;
