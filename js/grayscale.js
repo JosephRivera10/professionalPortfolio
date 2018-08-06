@@ -48,9 +48,22 @@ $('.carousel').carousel()
 
 })(jQuery); // End of use strict
 
-function showCode() {
+function showUserCode() {
   var x = document.getElementById("userCode");
   var y = document.getElementById("userCarousel");
+
+  if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display = "none";
+  } else {
+      x.style.display = "none";
+      y.style.display = "block";
+  }
+}
+
+function showIncidentCode() {
+  var x = document.getElementById("incidentCode");
+  var y = document.getElementById("incidentCarousel");
 
   if (x.style.display === "none") {
       x.style.display = "block";
