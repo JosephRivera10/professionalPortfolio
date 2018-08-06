@@ -41,6 +41,23 @@ $('.carousel').carousel()
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  //Enable tooltips
+  // $('.expand').tooltip()
+
+
+
 })(jQuery); // End of use strict
 
+function showCode() {
+  var x = document.getElementById("userCode");
+  var y = document.getElementById("userCarousel");
+
+  if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display = "none";
+  } else {
+      x.style.display = "none";
+      y.style.display = "block";
+  }
+}
 
