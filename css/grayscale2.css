@@ -75,9 +75,9 @@ body {
     transform: scale(1.1);
     cursor: pointer;
   }
-  .snippet {
+  /* .snippet {
     color: #00AAFF;
-  }
+  } */
   #mainNav {
     font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-bottom: 0;
