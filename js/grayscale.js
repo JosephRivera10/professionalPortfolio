@@ -74,3 +74,29 @@ function showIncidentCode() {
   }
 }
 
+function showTeamCode() {
+  var x = document.getElementById("teamCode");
+  var y = document.getElementById("teamCarousel");
+
+  if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display = "none";
+  } else {
+      x.style.display = "none";
+      y.style.display = "block";
+  }
+}
+
+function showShowIncidentCode() {
+  var x = document.getElementById("showIncidentCode");
+  var y = document.getElementById("showIncidentCarousel");
+
+  if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display = "none";
+  } else {
+      x.style.display = "none";
+      y.style.display = "block";
+  }
+}
+
